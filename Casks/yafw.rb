@@ -1,11 +1,14 @@
 cask "yafw" do
-  version "0.4"
-  sha256 "cd39d779368e95dea76390215e3b64218edc137eb7f855410a5c5d6ec9983202"
+  version "0.4.1"
+  sha256 "e60427758ce03028144d4592240daaacb2c9271877b862d5271bce4aac486a87"
 
   url "https://github.com/ValentinRapp/yafw/releases/download/v#{version}/stable-macos-arm64-yafw.dmg"
   name "Yafw"
-  desc "Yet Another Frame Widget"
+  desc "Yet Another FFmpeg Wrapper"
   homepage "https://github.com/ValentinRapp/yafw"
+
+  depends_on arch: :arm64
+  depends_on formula: "ffmpeg"
 
   app "yafw.app"
 

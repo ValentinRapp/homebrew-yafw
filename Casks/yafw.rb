@@ -1,6 +1,6 @@
 cask "yafw" do
-  version "0.7.2"
-  sha256 "860a83946e34df6255e288d2a331096996d9947c75e45c5f629769293f4b76e9"
+  version "0.7.3"
+  sha256 "06ec4a29818e5e856c29aa33efad08e68fedd9be598d4076d85f33e79f33e15f"
 
   url "https://github.com/ValentinRapp/yafw/releases/download/v#{version}/stable-macos-arm64-yafw.dmg"
   name "Yafw"
